@@ -1,0 +1,49 @@
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  border-bottom: 0.5px solid var(--border);
+  background: var(--bg-surface);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.headerInner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 14px 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logoIcon {
+  font-size: 20px;
+  color: #185FA5;
+}
+
+.logoText {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}

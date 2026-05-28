@@ -1,0 +1,27 @@
+.bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.stat {
+  background: var(--bg-col);
+  border-radius: var(--radius-md);
+  padding: 8px 16px;
+  min-width: 80px;
+}
+
+.label {
+  display: block;
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-bottom: 3px;
+}
+
+.value {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
