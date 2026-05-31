@@ -52,3 +52,26 @@ src/
 ## How it works
 
 All board state lives in the `useKanban` hook. Components are purely presentational — they receive data and callbacks as props. Drag-and-drop uses the native HTML5 Drag and Drop API (`draggable`, `onDragStart`, `onDrop`).
+
+
+## What I Learned
+
+During this project I practiced:
+
+* Building a React application with reusable components
+* Managing board state with a custom React hook
+* Working with the native HTML5 Drag and Drop API
+* Creating dynamic task cards
+* Moving cards between columns
+* Calculating live board statistics
+* Styling a responsive interface with CSS Modules
+
+## Future Improvements
+
+* Save board state in localStorage
+* Add card editing
+* Add task search
+* Add filtering by tag and priority
+* Add drag sorting inside the same column
+* Add due dates for tasks
+* Add tests
