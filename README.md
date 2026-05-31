@@ -53,6 +53,11 @@ src/
 
 All board state lives in the `useKanban` hook. Components are purely presentational — they receive data and callbacks as props. Drag-and-drop uses the native HTML5 Drag and Drop API (`draggable`, `onDragStart`, `onDrop`).
 
+## Screenshots
+
+![Home page](./docs/screenshots/kanban-board.png)
+
+
 
 ## What I Learned
 
